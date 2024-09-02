@@ -1,0 +1,106 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #121212; /* Dark background for a night mode look */
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+.resume-container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #1e1e1e; /* Slightly lighter dark background for the resume */
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Darker shadow for a more subtle effect */
+    border-radius: 8px;
+    border: 1px solid #333; /* Darker border to match the dark theme */
+}
+
+.resume-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #2196F3; /* Brighter blue for contrast */
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #2196F3; /* Border around profile picture */
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+    margin-left: 20px;
+    max-width: calc(100% - 140px); /* Adjusting width to fit content */
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #e0e0e0; /* Light text color for header */
+}
+
+.header-content .subtitle {
+    font-size: 1.2em;
+    color: #b0b0b0; /* Lighter grey for subtitle */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-column,
+.right-column {
+    width: 48%;
+}
+
+.section-header {
+    background-color: #2196F3; /* Brighter blue for section headers */
+    color: #121212; /* Dark text for contrast */
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #e0e0e0; /* Light text color for section headings */
+}
+
+p,
+ul {
+    margin: 10px 0;
+    color: #b0b0b0; /* Lighter grey for paragraph and list text */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #e0e0e0; /* Light text color for job titles */
+}
+
+.resume-footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #b0b0b0; /* Lighter grey for footer text */
+}
